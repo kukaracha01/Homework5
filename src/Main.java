@@ -58,6 +58,35 @@ public class Main {
             System.out.println("Доставка невозможна");
         }
 
+        System.out.println("Task5");
+        int monthNumber = 6;
+        if (monthNumber <= 12) {
+            switch (monthNumber) {
+                case 12:
+                case 1:
+                case 2:
+                    System.out.println("Сейчас зима");
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                    System.out.println("Сейчас весна");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    System.out.println("Сейчас лето");
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    System.out.println("Сейчас осень");
+                    break;
+                default:
+            }
+        } else {
+            System.out.println("Такого месяца не существует");
+        }
 
     }
 }
