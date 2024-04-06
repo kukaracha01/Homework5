@@ -34,7 +34,7 @@ public class Main {
         }
 
         System.out.println("Task3");
-        int year = 2000;
+        int year = 2012;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
         } else {
