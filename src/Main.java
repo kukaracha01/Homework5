@@ -35,10 +35,9 @@ public class Main {
 
         System.out.println("Task3");
         int year = 2000;
-            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0 ) {
-                System.out.println(year + " год является високосным");
-            }
-        else {
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year + " год является високосным");
+        } else {
             System.out.println(year + " год является не високосным");
         }
 
@@ -55,12 +54,10 @@ public class Main {
         if (deliveryDistance > 60 && deliveryDistance <= 100) {
             days = days + 2;
             System.out.println("Потребуется дней: " + days);
-        }
-        else {
+        } else {
             System.out.println("Доставка невозможна");
         }
 
-        System.out.println("Task5");
 
     }
 }
