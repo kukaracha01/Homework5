@@ -42,21 +42,20 @@ public class Main {
         }
 
         System.out.println("Task4");
-        int deliveryDistance = 21;
+        int deliveryDistance = 61;
         int days = 1;
-        if (deliveryDistance <= 20) {
+        if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: " + days);
         }
-        if (deliveryDistance > 20 && deliveryDistance <= 60) {
+        if (deliveryDistance >= 20 && deliveryDistance <= 60) {
             days = days + 1;
             System.out.println("Потребуется дней: " + days);
         }
         if (deliveryDistance > 60 && deliveryDistance <= 100) {
             days = days + 2;
             System.out.println("Потребуется дней: " + days);
-        } else {
-            System.out.println("Доставка невозможна");
         }
+
 
         System.out.println("Task5");
         int monthNumber = 6;
